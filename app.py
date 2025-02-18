@@ -17,7 +17,7 @@ def eve(e):
         lis.pop()
     elif e.name == "space":
         lis.append(" ")
-    elif e.name == "ctrl" or e.name == "shift" or e.name == "alt" or e.name == "tab":
+    elif e.name == "ctrl" or e.name == "shift" or e.name == "alt" or e.name == "tab" or e.name == "caps lock" or e.name == "left" or e.name == "down" or e.name == "right" or e.name == "up":
         lis.append("")
     else:
         lis.append(e.name)
